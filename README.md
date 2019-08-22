@@ -44,7 +44,7 @@ Baked data is stored in a script called VLM Baked Data, which is attached to any
 This script is standalone and can be safely removed from objects if you want to stop baked colors from being applied.
 
 ## The Bake Process
-All of the methods in the code base has been suitably abstracted so you can easily build your own bake process and expand on what's already there if you need to. Out of the box this is the default bake process:
+All of the methods in the code base have been suitably abstracted so you can easily build your own bake process and expand on what's already there if you need to. Out of the box this is the default bake process:
 
 ```
 - Discover lights
