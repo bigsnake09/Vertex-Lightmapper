@@ -1,0 +1,10 @@
+Library/
+obj/
+Temp/
+ProjectSettings/
+Logs/
+Packages/
+.vs/
+Vertex Lightmapper.sln
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
