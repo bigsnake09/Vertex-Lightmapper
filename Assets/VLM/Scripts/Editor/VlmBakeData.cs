@@ -39,7 +39,7 @@ namespace Vlm.Editor
                 if (!GameObjectUtility.AreStaticEditorFlagsSet(mesh.gameObject, StaticEditorFlags.LightmapStatic)) continue;
 
                 VlmBakeOptionsComponent bakeOptions = mesh.GetComponent<VlmBakeOptionsComponent>();
-                if (!bakeOptions || !bakeOptions.IgnoreLightmapper) Meshes.Add(new VlmMeshObject(mesh.gameObject));
+                if (!bakeOptions || !bakeOptions.IgnoreLightmapper) Meshes.Add(new VlmMeshObject(mesh.gameObject, bakeOptions));
             }
         }
 
