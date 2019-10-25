@@ -5,7 +5,16 @@ Because of how VLM works it is not compatible with tools that store information 
 
 Two example scenes are included to provide a basic showcase of terrain lighting baked with VLM. Two shaders are also included, these are taken directly from the Unity Tools package shipped with BallisticNG.
 
+# Coming in the future
+These are currently implemented into BallisticNG and will be coming some time after the game's 1.1.6 public release.
+* Backface shadows toggle
+* Shadow distance bias
+* Single bounce voxel cone gi areas
+* Per-scene settings
+
 # Usage
+To access the vertex lightmapper UI go to Window -> Rendering -> Vertex Lightmapper from the Unity menu bar.
+
 ## Scene Preperation
 * If you do not plan to use Unity's lightmapper then head over to the lighting panel (Window -> Rendering -> Lighting) and turn off Auto Generate at the bottom
 * Set any meshes you want to be baked using VLM to lightmap static. The option for this is at the top right of the inspector, to the right of the name.
