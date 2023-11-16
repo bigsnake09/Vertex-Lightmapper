@@ -1,3 +1,9 @@
+# Notice
+This version of Vertex Lightmapper is outdated and no longer maintained.
+
+[Check out Vertex Lightmapper 2 for the new and improved version.](https://github.com/bigsnake09/Vertex-Lightmapper-2)
+
+
 # About
 Vertex Lightmapper is the public release of the Unity based light mapping tool developed for and used in BallisticNG. By storing lighting information in mesh vertex colors and using a shader that reads them to tint the mesh, you can create lighting that mimics 3D games from the PS1 era.
 
